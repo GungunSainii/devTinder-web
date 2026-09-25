@@ -11,3 +11,10 @@
 - Create an Outlet in your Body Componet 
 - Create a footer
 - Componet Design in NB
+
+- Create a Login page
+- Install axios
+- CORS - install cors in backend => add middleware to with configuration: origin, credentials: true
+- Whenever you're making API call so pass axios => {withCredentials: true}
+
+____ SUCCESS : Got data res and cookies are setup ____
