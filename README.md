@@ -27,5 +27,6 @@ ____ SUCCESS : Got data res and cookies are setup ____
 
 - You should not be able to access other rputes without login
 - If tokens not present redirect user to login page 
-- Logout
+- Logout Feature
+- Error handling on login page 
 - Profile Page
