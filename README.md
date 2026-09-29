@@ -29,4 +29,8 @@ ____ SUCCESS : Got data res and cookies are setup ____
 - If tokens not present redirect user to login page 
 - Logout Feature
 - Error handling on login page 
-- Profile Page
+- Get the feed and add feed in the store
+- Build Usercard onfeed
+- Edit Profile feature
+- Show Toast Message on save of Profile
+- See all my connections
