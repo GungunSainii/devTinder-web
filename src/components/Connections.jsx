@@ -33,9 +33,9 @@ const Connections = () => {
         <h1 className="text-bold text-2xl">Connections</h1>
         {connections.map((connection)=> {
 
-            const {firstName,lastName} = connection
+            const {_id,firstName,lastName} = connection
 
-            return (<div className="m-4 p-4 border rounded-lg bg-base-200 w-1/2 mx-auto "> 
+            return (<div key={_id} className="m-4 p-4 border rounded-lg bg-base-200 w-1/2 mx-auto "> 
                 <h2>{firstName}</h2>
                 <h3>{lastName}</h3>
 
