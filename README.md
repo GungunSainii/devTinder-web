@@ -38,7 +38,7 @@ ____ SUCCESS : Got data res and cookies are setup ____
 - New Page - See all my connection Requests
 - Feature - Accept/Reject Connection Request
 
-Reamining 
+
 - Send/Ignore user card from feed
 - Signup New User
 - E2ETesting

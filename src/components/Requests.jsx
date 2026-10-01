@@ -8,7 +8,6 @@ const Request = () => {
   const requests = useSelector((store) => store.requests);
   const dispatch = useDispatch();
 
-  const [showButtons, setShowButtons] = useState(true);
 
   const reviewRequest = async (status,_id) => {
     try{
@@ -45,7 +44,7 @@ const Request = () => {
 
   return (
     <div className="text-center my-10">
-      <h1 className="text-bold text-2xl">Connections</h1>
+      <h1 className="text-bold text-2xl">Requests</h1>
       {requests.map((request) => {
         const { _id, firstName, lastName } = request.fromUserId;
 
